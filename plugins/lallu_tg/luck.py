@@ -6,7 +6,7 @@ from pyrogram import Client, filters
 from info import COMMAND_HAND_LER
 from plugins.helper_functions.cust_p_filters import f_onw_fliter
 
-# LUCK------------ https://telegram.me/Josprojects ------------ #
+# LUCK------------ https://telegram.me/MutyalaHarshith ------------ #
 
 # EMOJI CONSTANTS
 TRY_YOUR_LUCK = "🎰"
