@@ -759,8 +759,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💥 𝙾𝚆𝙽𝙴𝚁 💥', url='https://t.me/mr_MKN'), 
-            InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/mkn_bots_updates')
+            InlineKeyboardButton('💥 𝙾𝚆𝙽𝙴𝚁 💥', url='https://t.me/Develoveper'), 
+            InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/MutyalaHarshith')
             ],[      
             InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', callback_data='help'),
             InlineKeyboardButton('💫 𝙰𝙱𝙾𝚄𝚃 💫', callback_data='about')
@@ -851,7 +851,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙿𝙸𝙽', callback_data='pin')
             ],[
             InlineKeyboardButton('𝙲𝙰𝚁𝙱𝙾𝙽', callback_data='carb'),
-            InlineKeyboardButton('𝙵𝙾𝙽𝙳', callback_data='fond'),
+            InlineKeyboardButton('MH𝙵𝙾𝙽T', callback_data='fond'),
             InlineKeyboardButton('𝚉𝙾𝙼𝙱𝙸𝙴', callback_data='zombies')
             ],[
             InlineKeyboardButton('⏮️ 𝙱𝙰𝙲𝙺 ⏮️', callback_data='help'),
@@ -859,13 +859,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)       
         await query.message.edit_text(
-            text="⦿"
+            text="Mutyala"
         )
         await query.message.edit_text(
-            text="⦿⦿⦿"
+            text="Harshith"
         )
         await query.message.edit_text(
-            text="⦿⦿⦿⦿⦿⦿⦿"
+            text="ముత్యాల హర్షిత్"
         )
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -881,13 +881,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="⦿"
+            text="Mutyala"
         )
         await query.message.edit_text(
-            text="⦿⦿⦿"
+            text="Harshith"
         )
         await query.message.edit_text(
-            text="⦿⦿⦿⦿⦿⦿⦿"
+            text="ముత్యాల హర్షిత్"
         ) 
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
@@ -1135,7 +1135,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "carb":
         R1 = await query.message.reply_photo(
-                 photo="https://telegra.ph/file/2e2a07e86066538ed7406.jpg",
+                 photo="https://telegra.ph/file/236794ce4bb2213eaae1e.jpg",
                  caption=script.CARB_TXT,
                  parse_mode='html'
         )
