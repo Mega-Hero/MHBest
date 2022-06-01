@@ -1124,7 +1124,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "gtrans":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='mkn'),
-            InlineKeyboardButton('𝙻𝙰𝙽𝙶 𝙲𝙾𝙳𝙴𝚂', url='https://cloud.google.com/translate/docs/languages')
+            InlineKeyboardButton('𝙻𝙰𝙽𝙶 𝙲𝙾𝙳𝙴𝚂', url='https://telegra.ph/Google-Translating-Languages-05-25')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
